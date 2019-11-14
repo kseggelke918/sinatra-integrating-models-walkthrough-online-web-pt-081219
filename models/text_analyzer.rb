@@ -41,13 +41,6 @@ class TextAnalyzer
  
     biggest
   end
-  
-  def most_used_letter_letter_count
-    if most_used_letter == /[aeiou]/
-      self.count_of_vowels
-    else 
-      self.count_of_consonants
-    end 
-  end 
+
   
 end 
